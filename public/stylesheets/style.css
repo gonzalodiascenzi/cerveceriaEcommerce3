@@ -50,14 +50,21 @@
   color: rgb(255, 255, 255)
 }*/
 
-/*Logo*/
+/*Logo lupulo*/
 .img0 {
   position: relative;
   width: 50%;
   top: 10px;
   left: 0px;
-  
+}
 
+/*Logo usuario*/
+.img1 {
+  position: relative;
+
+  width: 30%;
+  top: 40px;
+  right: -100px;  
 }
 
 
