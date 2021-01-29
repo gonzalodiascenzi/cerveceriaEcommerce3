@@ -6,11 +6,11 @@ router.get('/', function(req, res, next) {
   res.render('index');
 });
 
-router.get('/contacto',  (req, res) => {
+router.get('/login',  (req, res) => {
   res.render('newViews/login');
 })
 
-router.get('/contacto',  (req, res) => {
+router.get('/register',  (req, res) => {
   res.render('newViews/register');
 })
 

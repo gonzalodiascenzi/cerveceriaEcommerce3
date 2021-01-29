@@ -1,15 +1,11 @@
 /*Div de sesion ubicado en navbar*/
 .sesion{
-  display: flex;
+  display: block;
   align-items: center;
-  font-size: 6rem;
   font-family: STAY HOME;
   color: white;
   display: flex;
   align-items: center;
-  font-size: 2rem;
-  font-family: STAY HOME;
-  color: white;
   position: absolute;
   right: 0;
 }
@@ -20,6 +16,8 @@
   position: absolute;
   top: 105px;
   right: 45px;
+  font-size: 2rem;
+  font-family: STAY HOME;
 }
 .inicio2:hover{
   background-color: lime;
@@ -30,6 +28,8 @@
   position: absolute;
   top: 145px;
   right: 53px;
+  font-size: 2rem;
+  font-family: STAY HOME;
 }
 .inicio:hover{
   background-color: lime;
@@ -106,12 +106,14 @@
 }
 
 .main{
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100vh;
   background-image: '/images/ladrillos.webp'
 }
 
-/*Nuestras cervezas*/
+/*Nuestras cervezas imagen*/
 .main > div > .img2{
   width: 1280;
   height: 720;
@@ -124,7 +126,48 @@
 }
 
 /*Primera seccion*/
+.primeraSeccion{
+  width: 100%;
+  height: 50vh;
+  
+  
+}
+/*Segunda seccion*/
+.img2{
+  position: absolute;
+  top: 210px;
+  width: 100%;
+  height: 100vh;
+}
 
+/*Segunda seccion*/
+.segundaSeccion{
+  position: relative;
+  width: 100%;
+  height: 50vh;
+  background-color: gold;
+  font-family: AMONG;
+  font-size: 5rem;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.p1{
+  position: relative;
+  top: 50px;
+  left: 900px;
+  font-family: STAY HOME;
+  font-optical-sizing: initial;
+}
+
+.p2{
+  position: relative;
+  top:0;
+  left: 50px;
+  font-family: STAY HOME;
+  
+}
 
 
 
