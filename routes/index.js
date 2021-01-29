@@ -7,6 +7,14 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/contacto',  (req, res) => {
+  res.render('newViews/login');
+})
+
+router.get('/contacto',  (req, res) => {
+  res.render('newViews/register');
+})
+
+router.get('/contacto',  (req, res) => {
   res.render('newViews/contacto');
 })
 
