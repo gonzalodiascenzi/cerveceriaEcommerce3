@@ -148,7 +148,7 @@
 .p1{
   position: relative;
   top: 50px;
-  left: 900px;
+  left: 950px;
   font-family: STAY HOME;
   font-optical-sizing: initial;
 }
@@ -164,22 +164,13 @@ background-color: whitesmoke ;
   font-family: STAY HOME;
   
 }
-/*Productos destacados*/
-.productosDestacados{
-  width: 100%;
-  background-color: lightgrey;
-  height: 80vh;
-  font-family: AMONG;
-  font-size: 5rem;
-  align-items: center;
-  justify-content: center;
-}
+
 
 /*Segundo titulo de main*/
 .p3{
   position: relative;
   top: 50px;
-  left: 1000px;
+  left: 1050px;
   font-family: STAY HOME;
 }
 .p3:hover{
@@ -189,12 +180,102 @@ background-color: whitesmoke ;
 .p4{
   position: relative;
   top:80px;
-  left: 450px;
+  left: 550px;
   font-family: STAY HOME;
   align-items: center;
   justify-content: space-between;
 }
+/*footer*/
+.footer{
+  width: 100%;
+  background-color: black;
+  height: 40vh;
+  font-family: AMONG;
+  font-size: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+/*Listas del footer*/
+.listas{
+  display: flex;
+  position: relative;
+  left: 550px;
+  top: 100px;
+ 
+}
+/*Nosotros lista*/
+.nosotros-lista{
+  position: relative;
+  bottom: 0%;
+  left:0%;
+  display: block;
+}
+.siganos-lista{
+  position: relative;
+  bottom: 0%;
+  left: 400px;
+  display: block;
+  color:white;
+}
 
+.servicio-lista{
+  position: relative;
+  bottom: 0%;
+  left: 200px;
+  display: block;
+  color:white;
+}
 
+/*Titulos*/
+.titulo-lista-1{
+  color: white; 
+  font-size: 3rem;
+  position: relative;
+  top: -50px;
+  left: 25px;
+}
+.titulo-lista-2{
+  color: white; 
+  font-size: 3rem;
+  position: relative;
+  top: -50px;
+  left: 20px;
+}
+.titulo-lista-3{
+  color: white; 
+  font-size: 3rem;
+  position: relative;
+  top: -50px;
+  left: 20px;
 
+}
+/*Items lista*/
+.listas-list-item{
+  list-style: none;
+  padding: 25px;
+  color: white;
+  text-decoration: none;
+}
+/*Enlace de lista*/
+.enlace-lista{
+  color: white;
+  text-decoration: none;
+}
 
+/*Main*/
+.main{
+width: 100%;
+height: 160vh;
+
+}
+
+/*Productos destacados*/
+.productosDestacados{
+  width: 100%;
+  background-color: lightgrey;
+  height: 140vh;
+  font-family: AMONG;
+  font-size: 5rem;
+  align-items: center;
+  justify-content: center;
+}
