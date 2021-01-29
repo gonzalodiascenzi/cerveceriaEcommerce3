@@ -1,3 +1,39 @@
+/*Div de sesion ubicado en navbar*/
+.sesion{
+  display: flex;
+  align-items: center;
+  font-size: 6rem;
+  font-family: STAY HOME;
+  color: white;
+  display: flex;
+  align-items: center;
+  font-size: 6rem;
+  font-family: STAY HOME;
+  color: white;
+  position: absolute;
+  right: 0;
+}
+/*Letras de iniciar sesion*/
+.inicio { 
+  color: white;
+  text-decoration: none;
+  position: absolute;
+  top: 76px;
+  right: 315px;
+}
+.inicio:hover{
+  background-color: lime;
+}
+/*Logo usuario*/
+.img1 {
+  position: relative;
+
+  width: 45%;
+  top: -10px;
+  right: -550px;  
+}
+
+
 /*Elimina marcos por defecto del navegador*/
 *{
   padding: 0;
@@ -27,7 +63,7 @@
 }
 .navbar-list-item{
   list-style: none;
-  padding: 15px;
+  padding: 25px;
 }
 .navbar-list-item > a{
   color: white;
@@ -51,6 +87,7 @@
 }*/
 
 /*Logo lupulo*/
+
 .img0 {
   position: relative;
   width: 50%;
@@ -58,14 +95,9 @@
   left: 0px;
 }
 
-/*Logo usuario*/
-.img1 {
-  position: relative;
 
-  width: 30%;
-  top: 40px;
-  right: -100px;  
-}
+
+
 
 
 
