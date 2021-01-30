@@ -326,18 +326,30 @@ background-color: rgb(221, 220, 220);
   justify-content: center;
 }
 
-.frase1{
-
+.fraseborracho1{
+  position: relative;
+align-items: center;
+font-size: 2rem;
+left: 700px;
+top: 50px;
+font-style: oblique;
+ 
 }
-.frase2{
+.fraseborracho2{
+  position: relative;
+  align-items: center;
+  font-size: 2rem;
+  left: 700px;
+  top: 50px;
+  font-style: oblique;
   
 }
-.frase3{
+.fraseborracho3{
   
 }
-.frase4{
+.fraseborracho4{
   
 }
-.frase5{
+.fraseborracho5{
   
 }
