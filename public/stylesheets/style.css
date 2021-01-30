@@ -330,7 +330,7 @@ background-color: rgb(221, 220, 220);
   position: relative;
 align-items: center;
 font-size: 2rem;
-left: 700px;
+left: 730px;
 top: 50px;
 font-style: oblique;
  
@@ -339,17 +339,32 @@ font-style: oblique;
   position: relative;
   align-items: center;
   font-size: 2rem;
-  left: 700px;
+  left: 900px;
   top: 50px;
   font-style: oblique;
   
 }
 .fraseborracho3{
-  
+  position: relative;
+  align-items: center;
+  font-size: 2rem;
+  left: 650px;
+  top: 50px;
+  font-style: oblique;
 }
 .fraseborracho4{
-  
+  position: relative;
+  align-items: center;
+  font-size: 2rem;
+  left: 900px;
+  top: 50px;
+  font-style: oblique;
 }
 .fraseborracho5{
-  
+  position: relative;
+  align-items: center;
+  font-size: 2rem;
+  left: 1100px;
+  top: 50px;
+  font-style: oblique;
 }
