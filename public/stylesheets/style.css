@@ -174,12 +174,12 @@ background-color: whitesmoke ;
   font-family: STAY HOME;
 }
 .p3:hover{
-  background-color: whitesmoke;
+  background-color: gold;
 }
 /*Segundo parrafo de main*/
 .p4{
   position: relative;
-  top:80px;
+  top: 80px;
   left: 550px;
   font-family: STAY HOME;
   align-items: center;
@@ -199,9 +199,9 @@ background-color: whitesmoke ;
 .listas{
   display: flex;
   position: relative;
-  left: 550px;
-  top: 100px;
- 
+  left: 710px;
+  top: 100px; 
+  
 }
 /*Nosotros lista*/
 .nosotros-lista{
@@ -209,13 +209,17 @@ background-color: whitesmoke ;
   bottom: 0%;
   left:0%;
   display: block;
+  font-size: 1.35rem;
+
 }
+
 .siganos-lista{
   position: relative;
   bottom: 0%;
   left: 400px;
   display: block;
   color:white;
+  font-size: 1.35rem;
 }
 
 .servicio-lista{
@@ -224,35 +228,39 @@ background-color: whitesmoke ;
   left: 200px;
   display: block;
   color:white;
+  font-size: 1.35rem;
 }
 
 /*Titulos*/
 .titulo-lista-1{
   color: white; 
-  font-size: 3rem;
   position: relative;
   top: -50px;
-  left: 25px;
+  left: 15px;
+  font-size: 2.35rem;
 }
 .titulo-lista-2{
   color: white; 
-  font-size: 3rem;
   position: relative;
   top: -50px;
-  left: 20px;
+  left: 15px;
+  font-size: 2.35rem;
 }
 .titulo-lista-3{
   color: white; 
-  font-size: 3rem;
+  font-size: 2 rem;
   position: relative;
   top: -50px;
-  left: 20px;
+  left: 15px;
+  font-size: 2.35rem;
 
 }
 /*Items lista*/
 .listas-list-item{
   list-style: none;
-  padding: 25px;
+  font-size: 1 rem;
+  padding: 10px;
+  margin: 10px;
   color: white;
   text-decoration: none;
 }
@@ -273,7 +281,7 @@ height: 160vh;
 .productosDestacados{
   width: 100%;
   background-color: lightgrey;
-  height: 140vh;
+  height: 120vh;
   font-family: AMONG;
   font-size: 5rem;
   align-items: center;
