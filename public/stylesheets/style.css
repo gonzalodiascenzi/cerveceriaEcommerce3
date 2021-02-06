@@ -400,9 +400,10 @@ font-style: oblique;
 
 /*inputs*/
 .inputs-login{
-
+  margin-top: 20px;
 }
 
 .inputs-register{
-
+  margin-top: 20px;
 }
+
