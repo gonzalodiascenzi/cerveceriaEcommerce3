@@ -11,9 +11,14 @@ module.exports= {
  res.render('newViews/cervezas', {
  productos : productoParseado
  });
-
- },
  
+},
+ 
+
+register: function (req,res){
+    res.render('newViews/registerFormProduct');
+}
+
 }
 
 
