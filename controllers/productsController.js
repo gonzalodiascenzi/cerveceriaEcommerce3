@@ -17,7 +17,13 @@ module.exports= {
 
 register: function (req,res){
     res.render('newViews/registerFormProduct');
-}
+},
+
+processRegister: function (req, res) {
+    const nuevoProducto = {
+        nombre: req.body.nombre,
+        precio: req.body.precio
+    }
 
 }
 
