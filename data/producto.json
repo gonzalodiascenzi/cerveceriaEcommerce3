@@ -21,9 +21,12 @@
   },
   {
     "nombre": "Suicide Squat x 800 mlts",
-    "precio": [
-      "200",
-      "Rupertinsky"
-    ]
+    "precio": "200",
+    "Marca": "Rupertinsky"
+  },
+  {
+    "nombre": "Winnie x 350 mlts ",
+    "precio": "250",
+    "marca": "Disney"
   }
 ]
