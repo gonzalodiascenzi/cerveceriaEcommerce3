@@ -15,11 +15,11 @@ module.exports= {
 },
  
 
-register: function (req,res){
+ register: function (req,res){
     res.render('newViews/registerFormProduct');
 },
 
-processRegister: function (req, res) {
+ processRegister: function (req, res) {
     const nuevoProducto = {
         nombre: req.body.nombre,
         precio: req.body.precio
@@ -30,8 +30,19 @@ processRegister: function (req, res) {
 
         res.redirect('/products/');
 
+},
+
+ productDetail: function (req, res) {
+    let id = req.params.id;
+
+    // Buscar que exista el producto
+    // Lo almacenas en una constante
+    // Lo mandas a la vista de producto Detail
+
+    res.render('newViews/productDetails')
 }
 
+}
 
 
 
