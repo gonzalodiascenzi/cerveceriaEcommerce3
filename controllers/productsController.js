@@ -22,7 +22,8 @@ module.exports= {
  processRegister: function (req, res) {
     const nuevoProducto = {
         nombre: req.body.nombre,
-        precio: req.body.precio
+        precio: req.body.precio,
+        marca: req.body.marca
     }
     const newList = JSON.stringify([...productoParseado, nuevoProducto], null, 2);
 
