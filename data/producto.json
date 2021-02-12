@@ -3,7 +3,6 @@
     "nombre": "Honey x 750 mlts",
     "precio": "160",
     "marca": "Baum"
-
   },
   {
     "nombre": "Ipa Ale x 750 mlts",
@@ -14,6 +13,11 @@
     "nombre": "Amber Lager x 750 mlts",
     "precio": "100",
     "marca": "Patagonia"
+  },
+  {
+    "nombre": "Ipa Grey x 750 mlts",
+    "precio": "180",
+    "Marca": "La Paloma"
     
   }
 ]
