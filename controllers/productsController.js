@@ -24,6 +24,11 @@ processRegister: function (req, res) {
         nombre: req.body.nombre,
         precio: req.body.precio
     }
+    const newList = JSON.stringify([...productoParseado, nuevoProducto], null, 2);
+
+        fs.writeFileSync(productoPath, newList);
+
+        res.redirect('/products/');
 
 }
 
