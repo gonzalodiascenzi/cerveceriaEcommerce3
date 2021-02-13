@@ -10,7 +10,7 @@ router.get('/register', productsController.register);
 
 router.post('/register', productsController.processRegister);
 
-// router.get('/:id', productsController.productDetail);
+router.get('/:id', productsController.productDetail);
 
 
 module.exports=router;
